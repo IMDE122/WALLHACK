@@ -1,4 +1,4 @@
--- Vision Hub/main.lua
+-- IMDE Hub/main.lua
 -- sexy script by github.com/orialdev
 -- please give credit if you use anything from my code
 
