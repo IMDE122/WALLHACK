@@ -1497,36 +1497,36 @@ do
 end
 
 WindUI:AddTheme({
-    Name = "Default",
-    
-    Accent = Color3.fromHex("#00BFFF"),
-    Dialog = Color3.fromHex("#071021"),
-    Outline = Color3.fromHex("#BFEFFF"),
-    Text = Color3.fromHex("#E6F7FF"),
-    Placeholder = Color3.fromHex("#6F8892"),
-    Background = Color3.fromHex("#030407"),
-    Button = Color3.fromHex("#09202B"),
-    Icon = Color3.fromHex("#89F7FF")
+    Name = "IMDE Purple",
+
+    Accent = Color3.fromHex("#A855F7"),
+    Dialog = Color3.fromHex("#160B24"),
+    Outline = Color3.fromHex("#7C3AED"),
+    Text = Color3.fromHex("#F5E9FF"),
+    Placeholder = Color3.fromHex("#A78BFA"),
+    Background = Color3.fromHex("#07030D"),
+    Button = Color3.fromHex("#1B0B2E"),
+    Icon = Color3.fromHex("#D8B4FE")
 })
 
 local Window = WindUI:CreateWindow({
-    Title = "Vision Hub",
-    Author = "by orialdev",
-    Folder = "VisionHub",
-    Theme = "Default",
+    Title = "IMDE Hub",
+    Author = "Purple Neon Edition",
+    Folder = "IMDEHub",
+    Theme = "IMDE Purple",
     Icon = "https://raw.githubusercontent.com/orialdev2/Vision-Hub/refs/heads/main/Vision_Logo1.png",
     IconSize = 50,
     NewElements = true,
     OpenButton = {
-        Title = "Vision Hub",
+        Title = "IMDE hub",
         CornerRadius = UDim.new(1, 0),
         StrokeThickness = 3,
         Enabled = true,
         Draggable = true,
         OnlyMobile = true,
         Color = ColorSequence.new(
-            Color3.fromHex("#00BFFF"),
-            Color3.fromHex("#89F7FF")
+                Color3.fromHex("#7C3AED"),
+                Color3.fromHex("#D946EF")
         )
     }
 })
@@ -1534,8 +1534,8 @@ local Window = WindUI:CreateWindow({
 Window.ConfigManager:CreateConfig("Default")
 
 local Main = Window:Tab({
-    Title = "Home",
-    Icon = "house",
+    Title = "Dashboard",
+    Icon = "layout-dashboard",
 })
 
 local Movement = Window:Tab({
@@ -1580,7 +1580,7 @@ local Settings = Window:Tab({
 
 
 Main:Paragraph({
-    Title = "Welcome to Vision Hub!",
+    Title = "Welcome to IMDE hub!",
     Desc = "Thanks for using Vision Hub, Join our Discord for support and updates.",
     Thumbnail = "https://raw.githubusercontent.com/orialdev2/Vision-Hub/refs/heads/main/Vision.png",
     ThumbnailSize = 160,
@@ -1590,7 +1590,7 @@ Main:Paragraph({
                 Icon = "geist:logo-discord",
                 Callback = function()
                     if setclipboard then
-                        setclipboard("https://discord.gg/TZHgrMUKGJ")
+                        setclipboard("https://discord.gg/kM8nGKswcH")
                         Window:Dialog({
                             Title = "Discord Link Copied",
                             Icon = "geist:logo-discord",
